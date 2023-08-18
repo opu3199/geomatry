@@ -11,7 +11,7 @@
 </head>
 <body>
   <main class="mx-auto container">
-    <section class="lg:mx-20   mt-10 bg-black px-2 lg:mx-10">
+    <section class="lg:mx-20  pb-10  mt-10 bg-black px-2 lg:mx-10 text-white">
     <h1 class="text-center text-4xl font-bold mb-5 pt-4 text-violet-500">Geomatry Calculation</h1><hr>
     <div class="flex lg:flex-row flex-col justify-center gap-5 "> 
     <div class="card lg:w-96 bg-base-100 shadow-xl mt-20 bg-rose-800 p-3 text-white  ">
@@ -20,8 +20,8 @@
           <h2 class="card-title">Triangle</h2>
           <p>Area (A) = 0.5*b*b</p>
           <p class="flex gap-3 mb-2">
-            <input id="inputtriangle1" class="border-2 w-28 text-black" type="text" placeholder="base" ><span class="text-lg">cm</span>
-            <input id="inputtriangle2" class="border-2 w-28 text-black" type="text" placeholder="height"><span class="text-lg">cm</span>
+            <input id="inputtriangle1" class="border-2 w-20 text-black" type="text" placeholder="base" ><span class="text-lg">cm<sup>2</sup></span>
+            <input id="inputtriangle2" class="border-2 w-20 text-black" type="text" placeholder="height"><span class="text-lg">cm<sup>2</sup><sup>2</sup></span>
           </p>
           <p  class="text-lg">Area:  <span id="triangleid"  class="text-white ml-2 mr-2">00</span> cm </p>
           <div class=" ">
@@ -36,8 +36,8 @@
           <h2 class="card-title">Rectangle</h2>
           <p>Area (A) = W * I</p>
           <p class="flex gap-3 mb-2">
-            <input id="rectangleinput1" class="border-2 w-28" type="text" placeholder="base" ><span class="text-lg">cm</span>
-            <input id="rectangleinput2" class="border-2 w-28" type="text" placeholder="height"><span class="text-lg">cm</span>
+            <input id="rectangleinput1" class="border-2 w-20  text-black" type="text" placeholder="base" ><span class="text-lg">cm<sup>2</sup></span>
+            <input id="rectangleinput2" class="border-2 w-20 33 text-black" type="text" placeholder="height"><span class="text-lg">cm<sup>2</sup></span>
           </p>
           <p  class="text-lg">Area:  <span id="rectangleid"  class="text-white ml-2 mr-2">00</span> cm </p>
           
@@ -53,8 +53,8 @@
           <h2 class="card-title">Parallelogram</h2>
           <p>Area (A) = B * H</p>
           <p class="flex gap-3 mb-2">
-            <input id="parallelograminput1" class="border-2 w-28" type="text" placeholder="base" ><span class="text-lg">cm</span>
-            <input id="parallelograminput2" class="border-2 w-28" type="text" placeholder="height"><span class="text-lg">cm</span>
+            <input id="parallelograminput1" class="border-2 w-20 text-black" type="text" placeholder="base" ><span class="text-lg">cm<sup>2</sup></span>
+            <input id="parallelograminput2" class="border-2 w-20 text-black" type="text" placeholder="height"><span class="text-lg">cm<sup>2</sup></span>
           </p>
           <p  class="text-lg">Area:  <span id="parallelogramid"  class="text-white ml-2 mr-2">00</span> cm </p>
           <div class="card-actions ">
@@ -73,8 +73,8 @@
               <h2 class="card-title">Ellipse</h2>
               <p>Area (A) =π AB </p>
               <p class="flex gap-3 mb-2">
-                <input id="Ellipse1" class="border-2 w-28" type="text" placeholder="base" ><span class="text-lg">cm</span>
-                <input id="Ellipse2" class="border-2 w-28" type="text" placeholder="height"><span class="text-lg">cm</span>
+                <input id="Ellipse1" class="border-2 w-20 text-black" type="text" placeholder="base" ><span class="text-lg">cm<sup>2</sup></span>
+                <input id="Ellipse2" class="border-2 w-20 text-black" type="text" placeholder="height"><span class="text-lg">cm<sup>2</sup></span>
               </p>
               <p  class="text-lg">Area:  <span id="Ellipseid"  class="text-white ml-2 mr-2">00</span> cm </p>
               <div class="card-actions ">
@@ -97,5 +97,6 @@
 
 
     <script src="index.js"></script>
+   
 </body>
 </html>
